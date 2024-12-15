@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.default-marker {
+    position: absolute; /* Posisi absolut agar bisa ditempatkan di peta */
+    background-color: #ff0000; /* Warna latar belakang */
+    color: #ffffff; /* Warna teks */
+    padding: 5px 10px; /* Padding untuk jarak dalam */
+    border-radius: 5px; /* Membuat sudut membulat */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow agar lebih menarik */
+    font-size: 14px; /* Ukuran font */
+    font-weight: bold; /* Teks tebal */
+    text-align: center; /* Pusatkan teks */
+    transform: translate(-50%, -100%); /* Geser agar marker tepat di atas titik */
+    cursor: pointer; /* Pointer untuk interaksi */
+  }
+  
+  .default-marker:hover {
+    background-color: #ff4500; /* Warna saat hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Shadow lebih gelap saat hover */
+  }
+  
