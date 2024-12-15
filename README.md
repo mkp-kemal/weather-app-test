@@ -7,12 +7,12 @@
 
 # BAGIAN A
 
-# Membuat Tombol dengan Efek Hover Menggunakan CSS
-## Deskripsi
+## 1. Membuat Tombol dengan Efek Hover Menggunakan CSS
+### Deskripsi
 Proyek ini mencakup pembuatan tombol dengan efek hover menggunakan HTML dan CSS. Efek hover yang diinginkan adalah perubahan warna latar belakang tombol saat pengguna mengarahkan kursor ke atasnya.
 
 ## Langkah-Langkah Implementasi
-### 1. Buat CSS Class
+- ### Buat CSS Class
 ```css
 .hover-button {
     background-color: #3498db; 
@@ -30,7 +30,7 @@ Proyek ini mencakup pembuatan tombol dengan efek hover menggunakan HTML dan CSS.
 }
 ```
 
-### 2. Buat struktur code html
+- ### Buat struktur code html
 ```html
 <body>
     <button class="hover-button">Hover Me</button>
@@ -38,12 +38,12 @@ Proyek ini mencakup pembuatan tombol dengan efek hover menggunakan HTML dan CSS.
 ```
 
 
-# Menggabungkan File CSS dan JavaScript untuk Mengoptimalkan Performa Aplikasi Web
-## Deskripsi
+## 2. Menggabungkan File CSS dan JavaScript untuk Mengoptimalkan Performa Aplikasi Web
+### Deskripsi
 Menggabungkan beberapa file CSS dan JavaScript menjadi satu file untuk mengurangi jumlah permintaan HTTP, sehingga mempercepat waktu muat halaman aplikasi web.
 
 ## Contoh Implementasi
-### 1. Menggabungkan File CSS dan Javascript pada html
+- ### Menggabungkan File CSS dan Javascript pada html
 ```html
 <!DOCTYPE html>
 <html>
@@ -73,14 +73,14 @@ Menggabungkan beberapa file CSS dan JavaScript menjadi satu file untuk mengurang
 ```
 
 
-# Praktik Terbaik untuk Membuat Tombol yang Dapat Diakses melalui Keyboard
-## Deskripsi
+## 3. Praktik Terbaik untuk Membuat Tombol yang Dapat Diakses melalui Keyboard
+### Deskripsi
 membuat tombol yang dapat diakses dengan navigasi keyboard yang mudah dan dukungan untuk pembaca layar.
 
 ## Teknik dan Praktik Terbaik
 ### TEKNIK
-#### 1. Analisis experience pengguna untuk menentukan tombol mana yang lebih mudah di klik, contohnya "enter"
-#### 2. Membuat logic javascript untuk menambahkan navigasi ke keyboard pembaca layar/menggunakan element bawaan div yaitu oneKeydown
+- #### Analisis experience pengguna untuk menentukan tombol mana yang lebih mudah di klik, contohnya "enter"
+- #### Membuat logic javascript untuk menambahkan navigasi ke keyboard pembaca layar/menggunakan element bawaan div yaitu oneKeydown
 
 ### Praktik
 ```html
